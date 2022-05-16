@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".listviewActivity"
+    android:layout_below="@+id/toolbar2">
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:id="@+id/txtThum"
+            android:textSize="60dp"
+            android:gravity="center"
+            android:text="abc"
+            android:background="@color/design_default_color_secondary"
+            android:fontFamily="@font/amzing"
+            android:textColor="@color/white"
+            >
+
+        </TextView>
+
+        <ListView
+            android:id="@+id/ListCharacter"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:background="@color/white"
+            android:dividerHeight="5.0dp"></ListView>
+</LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

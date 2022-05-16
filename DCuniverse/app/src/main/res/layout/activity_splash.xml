@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SplashActivity">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+<FrameLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/BatLogo"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:src="@drawable/batlogo" />
+    <ImageView
+        android:id="@+id/FlashLogo"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:src="@drawable/flashlogo" />
+    <ImageView
+        android:id="@+id/WonderLogo"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:src="@drawable/wonderlogo" />
+
+    <ImageView
+        android:id="@+id/Suplogo"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:src="@drawable/suplogo" />
+    <ImageView
+        android:id="@+id/DClogo"
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:src="@drawable/dclogo" />
+
+</FrameLayout>
+
+    <TextView
+        android:id="@+id/txtAppName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:gravity="center"
+        android:textColor="#1C6383"
+        android:fontFamily="@font/comicfont"
+        android:textStyle="italic"
+        android:text="DC universer" />
+
+    <TextView
+        android:id="@+id/txtDesign"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:textColor="#1177A5"
+        android:fontFamily="@font/comicfont"
+        android:textStyle="italic"
+
+        android:text="By Ngọc Hy" />
+
+</LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
